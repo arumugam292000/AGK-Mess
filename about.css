@@ -1,13 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(7, 7, 7);
+    background-color: black;
 
-}
-body{
-    background-image: url("./back.avif");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .foot h1{
     margin-bottom: 1%;
@@ -80,7 +75,9 @@ font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: transparent;
+    background-image: url("./back.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   /* media queryyyyyy */
   @media(min-width:300px) and (max-width:600px){
